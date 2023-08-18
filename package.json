@@ -4,7 +4,7 @@
   "main": "src/main/index.js",
   "scripts": {
     "test": "jest",
-    "build": "tsc && ncc build"
+    "build": "ncc build"
   },
   "repository": {
     "type": "git",
