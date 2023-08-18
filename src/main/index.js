@@ -32,7 +32,8 @@ let domain, project, version, token, isCreateNextVersion;
       return;
     }
     await releaseVersion(currentVersion.id);
-    if (isCreateNextVersion === true || isCreateNextVersion === "true") {
+    console.log(isCreateNextVersion);
+    if (isCreateNextVersion !== false) {
       let nextVersion;
       if (isHotfixVersionName(versionName)) {
         nextVersion = versions[versions.length - 1].name;
