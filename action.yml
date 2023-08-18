@@ -1,4 +1,4 @@
-name: "Jira Github Release Automation (with optional at creating new version)"
+name: "Jira Github Release Automation"
 description: "release version & create new version in Jira"
 branding:
   icon: "edit"
